@@ -12,6 +12,7 @@
 		8365A7911EDD3AB9007E56A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8365A78F1EDD3AB9007E56A2 /* Main.storyboard */; };
 		8365A7931EDD3AB9007E56A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8365A7921EDD3AB9007E56A2 /* Assets.xcassets */; };
 		8365A7961EDD3AB9007E56A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8365A7941EDD3AB9007E56A2 /* LaunchScreen.storyboard */; };
+		83B279E01EDDF5D900A22CF4 /* MapHitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B279DF1EDDF5D900A22CF4 /* MapHitController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8365A7921EDD3AB9007E56A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8365A7951EDD3AB9007E56A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8365A7971EDD3AB9007E56A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B279DF1EDDF5D900A22CF4 /* MapHitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapHitController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8365A78B1EDD3AB9007E56A2 /* AppDelegate.swift */,
 				8365A78D1EDD3AB9007E56A2 /* ViewController.swift */,
 				8365A78F1EDD3AB9007E56A2 /* Main.storyboard */,
+				83B279DF1EDDF5D900A22CF4 /* MapHitController.swift */,
 				8365A7921EDD3AB9007E56A2 /* Assets.xcassets */,
 				8365A7941EDD3AB9007E56A2 /* LaunchScreen.storyboard */,
 				8365A7971EDD3AB9007E56A2 /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				8365A78E1EDD3AB9007E56A2 /* ViewController.swift in Sources */,
 				8365A78C1EDD3AB9007E56A2 /* AppDelegate.swift in Sources */,
+				83B279E01EDDF5D900A22CF4 /* MapHitController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +308,7 @@
 				8365A79C1EDD3AB9007E56A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
